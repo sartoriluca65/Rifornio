@@ -34,8 +34,7 @@ async function updateOfficialPrices(){
     if(request!==lastPricesRequest)return;
     officialPricesActive=false;
     // Never display fictional demo prices as though they came from the Ministry.
-    STATIONS=[];
-    if(status)status.textContent='Prezzi ufficiali non disponibili: nessun prezzo dimostrativo usato nel confronto.';
+    if(status)status.textContent='Prezzi ufficiali non disponibili: vengono mostrati soltanto esempi DEMO, non prezzi reali.';
     renderResults();
   }
 }
