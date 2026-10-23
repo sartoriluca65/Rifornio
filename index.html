@@ -67,4 +67,19 @@
       document.head.append(analyticsConfig);
     }
   </script>
+<script id="lukiapp-brand-script" data-public-url="https://sartoriluca65.github.io/rifornio/" data-app-name="le app">
+/* Lukiapp authorship and public-link sharing. No storage, tracking or personal app data. */
+(function(){
+ 'use strict';const script=document.currentScript,publicUrl=script?.getAttribute('data-public-url')||'https://sartoriluca65.github.io/',app=script?.getAttribute('data-app-name')||'le app';
+ function mount(){if(document.getElementById('lukiapp-brand'))return;const host=document.createElement('section');host.id='lukiapp-brand';host.setAttribute('aria-label','Lukiapp · autore, contatti e condivisione');const shadow=host.attachShadow({mode:'open'});
+ shadow.innerHTML='<style>:host{display:block;position:relative;clear:both;width:100%;box-sizing:border-box;margin:24px auto 0;padding:18px 16px;background:#f4f8f6;color:#334155;font:14px/1.5 system-ui,-apple-system,sans-serif;border-top:1px solid #d9e7de}*{box-sizing:border-box}.wrap{max-width:1100px;margin:auto;display:flex;gap:14px 24px;align-items:center;justify-content:space-between;flex-wrap:wrap}.title{display:flex;align-items:center;gap:8px;font-weight:750;color:#054a29}.mark{width:30px;height:34px;flex:none}.rights{font-size:12px;color:#64748b;margin-top:4px}.links{display:flex;gap:10px;align-items:center;flex-wrap:wrap}a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:9px 13px;border:1px solid #bdd6c7;border-radius:12px;text-decoration:none;color:#054a29;background:white;overflow-wrap:anywhere}.wa{background:#075e36;color:white;border-color:#075e36}.wa svg{width:22px;height:22px;flex:none}a:focus-visible{outline:3px solid #80c5a1;outline-offset:3px}@media(max-width:480px){.links{width:100%}.links a{flex:1;font-size:13px}}@media print{:host{display:none!important}}</style><div class="wrap"><div><div class="title"><svg class="mark" viewBox="0 0 32 36" role="img" aria-label="Marchio copyright Lukiapp"><path fill="#054a29" d="M16 1 30 6v11c0 8-6 14-14 18C8 31 2 25 2 17V6z"/><text x="16" y="25" text-anchor="middle" font-size="24" fill="white">©</text></svg><span>Creata da Lukiapp</span></div><div class="rights">© 2026 Luca Sartori · Tutti i diritti riservati.<br>Riproduzione non autorizzata vietata.</div></div><nav class="links" aria-label="Contatti Lukiapp"><a class="email" href="mailto:lukiapp.info@gmail.com">lukiapp.info@gmail.com</a><a class="wa" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.5L3 20.5l1.3-4.8a8.5 8.5 0 1 1 16.2-4z"/><path d="M8 7.5c-2 3.8 3 8.4 6.6 8.3l1.5-2-2.5-1.2-1 1c-1.6-.7-2.8-1.9-3.4-3.4l.9-1z"/></svg><span>Condividi su WhatsApp</span></a></nav></div>';
+ shadow.querySelector('.wa').href='https://wa.me/?text='+encodeURIComponent('Scopri '+app+' di Lukiapp: '+publicUrl);(document.querySelector('footer:not(.medical-footer)')||document.body).append(host);
+ // Replace only an obsolete author footer, never user records or recovery settings.
+ for(const old of document.querySelectorAll('.medical-footer'))old.hidden=true;
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount,{once:true});else mount();
+})();
+
+</script>
 </body></html>
+
