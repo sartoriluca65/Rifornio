@@ -1,0 +1,6 @@
+{
+  "name": "rifornio",
+  "main": "worker/mimit-prices.js",
+  "compatibility_date": "2026-10-29",
+  "previews": {}
+}
